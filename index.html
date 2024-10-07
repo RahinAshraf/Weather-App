@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast App</h1>
+        <input type="text" id="city-input" placeholder="Enter city name..." autofocus>
+        <button id="get-weather-btn">Get Weather</button>
+        <div id="weather-info" class="hidden"></div>
+        <div id="error-message" class="error-message hidden"></div>
+    </div>
+    <script src="utilityFunctions.js"></script>
+    <script src="apiService.js"></script>
+    <script src="uiRenderer.js"></script>
+    <script src="eventHandlers.js"></script>
+    <script src="localStorageService.js"></script>
+    <script src="appInitializer.js"></script>
+</body>
+</html>
